@@ -728,3 +728,11 @@ footer {
 .gameui {
     background-image: linear-gradient(#efe3c8, #b9ced0, #b9ced0);
 }
+
+.ui-card {
+    transition: all 700ms;
+}
+
+.ui-card:hover {
+    transform: translateY(-5px);
+}
